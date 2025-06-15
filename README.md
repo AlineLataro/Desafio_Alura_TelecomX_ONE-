@@ -3,12 +3,10 @@
 ## 📚 Índice
 
 - [Descrição do Projeto](#descrição-do-projeto)
-- [Status do Projeto](#status-do-projeto)
-- [Funcionalidades e Demonstrações](#funcionalidades-e-demonstrações)
+- [Funcionalidades, Demonstrações e Insights](#funcionalidades-e-demonstrações)
 - [Acesso ao Projeto](#acesso-ao-projeto)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
 - [Desenvolvedora do Projeto](#desenvolvedora-do-projeto)
-- [Licença](#licença)
 
 ---
 
@@ -59,6 +57,7 @@ Para executar o projeto, siga as etapas:
    ```bash
    git clone https://github.com/AlineLataro/Desafio_Alura_TelecomX_ONE-.git
 
+---
 
 ## 🛠 Tecnologias Utilizadas
 
