@@ -41,6 +41,13 @@ Este projeto realiza uma análise detalhada sobre o churn (evasão) de clientes 
  ![Maiores Churns](https://drive.google.com/uc?id=1wozj2XWdqNvhvVz6cGO-rEvjQk2Qxw7d)
 
 
+ ## 🧠 Insights Principais
+
+- **Idosos** e clientes com **contrato mensal** ou **pagamento eletrônico automático** têm maior chance de cancelar.
+- **Clientes com menor tempo de contrato e menor gasto total** estão mais propensos a cancelar.
+- Estratégias de fidelização devem focar nesses perfis específicos.
+
+
 ---
 
 ## 🚀 Acesso ao Projeto
