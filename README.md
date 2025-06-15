@@ -1,36 +1,73 @@
-## 💡 Escopo do Projeto
+# Análise de Churn — Telecom X
 
-Este projeto tem como objetivo analisar a evasão de clientes (churn) na empresa fictícia **Telecom X**, identificando os principais fatores que levam ao cancelamento de contratos. A análise foi conduzida com foco em:
+## 📚 Índice
 
-- Limpeza e tratamento de dados.
-- Exploração estatística e visual das variáveis.
-- Identificação de padrões de comportamento entre clientes que cancelaram e os que permaneceram.
-- Geração de insights que possam embasar **estratégias de retenção** de clientes.
-
----
-
-## 🛠 Tecnologias e Ferramentas Utilizadas
-
-- **Linguagem:** Python 3
-- **Bibliotecas de análise de dados:**
-  - `pandas`
-  - `numpy`
-- **Bibliotecas de visualização:**
-  - `matplotlib`
-  - `seaborn`
-- **Ambiente de desenvolvimento:** Google Colab
-- **Armazenamento de gráficos:** Google Drive
-- **Documentação e Apresentação:** Markdown (`README.md`)
+- [Descrição do Projeto](#descrição-do-projeto)
+- [Status do Projeto](#status-do-projeto)
+- [Funcionalidades e Demonstrações](#funcionalidades-e-demonstrações)
+- [Acesso ao Projeto](#acesso-ao-projeto)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Desenvolvedora do Projeto](#desenvolvedora-do-projeto)
+- [Licença](#licença)
 
 ---
 
-## 🚧 Desafios Enfrentados
+## 📌 Descrição do Projeto
 
-Durante o desenvolvimento do projeto, enfrentamos e superamos os seguintes desafios:
-
-- **Padronização dos dados**: várias colunas estavam com valores inconsistentes, como campos `Yes/No` que precisaram ser convertidos em valores binários para facilitar análises estatísticas.
-- **Colunas mal formatadas**: como a coluna de total gasto (`Charges.Total`) contendo dados numéricos em formato de texto, exigindo conversão e tratamento de valores ausentes.
-- **Visualizações com muitas categorias**: ajustar cores, legendas e categorias em gráficos com múltiplas variáveis foi um ponto importante para garantir clareza.
-- **Integração com Google Drive**: garantir que os gráficos salvos fossem corretamente exibidos no Google Collab utilizando links públicos e adaptando o tamanho via HTML.
+Este projeto realiza uma análise detalhada sobre o churn (evasão) de clientes da empresa fictícia **Telecom X**, com o objetivo de identificar padrões e fatores que influenciam o cancelamento de serviços. A análise utiliza técnicas de ciência de dados, incluindo limpeza e tratamento de dados, análise exploratória e visualização, para apoiar estratégias de retenção.
 
 ---
+
+## 📊 Funcionalidades e Demonstrações
+
+### Proporção de Cancelamentos
+
+- Cerca de **25,7%** dos clientes cancelaram o serviço.
+
+<img src="https://drive.google.com/uc?id=1Y9u8ZsJIMNjNXRlfa-G98XoTNCcVEue5" alt="Proporção de Cancelamentos" width="50%">
+
+
+### Maiores Porcentagens de Churn por Categoria
+
+- Clientes idosos, contratos mensais e certos métodos de pagamento apresentaram maior risco de cancelamento.
+
+  ![Distribuição de Gasto Total](https://drive.google.com/uc?id=1kZwC9p9QiVDULNO-03cCkPjpKqcioKgT)
+
+
+### Distribuição de Gasto Total
+
+- Clientes que cancelaram tendem a ter contratos mais curtos e menor gasto total.
+
+ ![Maiores Churns](https://drive.google.com/uc?id=1wozj2XWdqNvhvVz6cGO-rEvjQk2Qxw7d)
+
+
+---
+
+## 🚀 Acesso ao Projeto
+
+Para executar o projeto, siga as etapas:
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/AlineLataro/Desafio_Alura_TelecomX_ONE-.git
+
+
+## 🛠 Tecnologias Utilizadas
+
+- Python 3  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Google Colab  
+- Google Drive  
+- Markdown  
+
+---
+
+## 👩‍💻 Desenvolvedora do Projeto
+
+**Nome:** Aline Lataro  
+**LinkedIn:** [linkedin.com/in/alinelataro](https://www.linkedin.com/in/aline-lataro)  
+**GitHub:** [github.com/AlineLataro](https://github.com/AlineLataro)
