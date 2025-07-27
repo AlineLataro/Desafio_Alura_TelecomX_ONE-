@@ -1,79 +1,73 @@
-# Análise de Churn — Telecom X
+# 📊 Análise de Evasão de Clientes - Telecom X
 
-## 📚 Índice
+Este repositório apresenta uma análise exploratória de dados realizada como parte do curso de **Data Science** no programa **Oracle Next Education (ONE)** em parceria com a **Alura**. O estudo foca em compreender os fatores que influenciam o alto índice de **evasão (churn)** dos clientes de uma empresa fictícia de telecomunicações: **Telecom X**.
 
-- [Descrição do Projeto](#descrição-do-projeto)
-- [Funcionalidades, Demonstrações e Insights](#funcionalidades-e-demonstrações)
-- [Acesso ao Projeto](#acesso-ao-projeto)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Desenvolvedora do Projeto](#desenvolvedora-do-projeto)
-
----
-
-## 📌 Descrição do Projeto
-
-Este projeto realiza uma análise detalhada sobre o churn (evasão) de clientes da empresa fictícia **Telecom X**, com o objetivo de identificar padrões e fatores que influenciam o cancelamento de serviços. A análise utiliza técnicas de ciência de dados, incluindo limpeza e tratamento de dados, análise exploratória e visualização, para apoiar estratégias de retenção.
-
----
-
-## 📊 Funcionalidades e Demonstrações
-
-### Proporção de Cancelamentos
-
-- Cerca de **25,7%** dos clientes cancelaram o serviço.
-
-<img src="https://drive.google.com/uc?id=1Y9u8ZsJIMNjNXRlfa-G98XoTNCcVEue5" alt="Proporção de Cancelamentos" width="50%">
+## 👩‍💻 Contatos e Perfis
 
 
-### Maiores Porcentagens de Churn por Categoria
+## 🌐 Meus Perfis
 
-- Clientes idosos, contratos mensais e certos métodos de pagamento apresentaram maior risco de cancelamento.
-
-  ![Distribuição de Gasto Total](https://drive.google.com/uc?id=1kZwC9p9QiVDULNO-03cCkPjpKqcioKgT)
-
-
-### Distribuição de Gasto Total
-
-- Clientes que cancelaram tendem a ter contratos mais curtos e menor gasto total.
-
- ![Maiores Churns](https://drive.google.com/uc?id=1wozj2XWdqNvhvVz6cGO-rEvjQk2Qxw7d)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlineLataro)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aline-lataro/)
+[![Perfil DIO](https://img.shields.io/badge/-Meu%20Perfil%20na%20DIO-30A3DC?style=for-the-badge)](https://www.dio.me/users/alinelataro_79692)
 
 
- ## 🧠 Insights Principais
 
-- **Idosos** e clientes com **contrato mensal** ou **pagamento eletrônico automático** têm maior chance de cancelar.
-- **Clientes com menor tempo de contrato e menor gasto total** estão mais propensos a cancelar.
-- Estratégias de fidelização devem focar nesses perfis específicos.
 
 
 ---
 
-## 🚀 Acesso ao Projeto
+## 🎯 Objetivo
 
-Para executar o projeto, siga as etapas:
+Aplicar técnicas de **ETL (Extração, Transformação e Carga)** e **EDA (Análise Exploratória de Dados)** para:
 
-1. Clone este repositório:
+- Explorar o comportamento dos clientes;
+- Identificar padrões associados ao cancelamento de contratos;
+- Gerar insights estratégicos para retenção de clientes.
 
-   ```bash
-   git clone https://github.com/AlineLataro/Desafio_Alura_TelecomX_ONE-.git
+---
+
+## ⚙️ Etapas do Projeto
+
+- **Extração**: Dados obtidos a partir de uma API simulada no GitHub (formato `.csv`).
+- **Transformação**:
+  - Limpeza e padronização;
+  - Conversão de tipos;
+  - Tratamento de valores nulos;
+  - Criação de variáveis derivadas.
+- **Análise**:
+  - Visualizações com **Python**, **Pandas**, **Seaborn** e **Matplotlib**;
+  - Interpretação dos dados para geração de insights.
+
+---
+
+## 📈 Principais Análises Realizadas
+
+- Distribuição geral de churn entre os clientes;
+- Comparação de churn por tipo de contrato;
+- Relação entre tempo de contrato (tenure) e evasão;
+- Análise dos serviços contratados (backup, segurança, suporte técnico);
+- Impacto da forma de pagamento e do perfil demográfico.
+
+---
+
+## 💡 Principais Insights
+
+- Clientes com **contratos mensais** são os que mais cancelam;
+- A maioria dos cancelamentos ocorre nos **primeiros 12 meses**;
+- Serviços como **segurança online** e **suporte técnico** reduzem a evasão;
+- Pagamentos por **métodos eletrônicos** estão associados a maior taxa de churn.
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
 
-- Python 3  
-- Pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-- Google Colab  
-- Google Drive  
-- Markdown  
+- Python 3.10+
+- Pandas
+- Matplotlib
+- Seab
 
 ---
 
-## 👩‍💻 Desenvolvedora do Projeto
-
-**Nome:** Aline Lataro  
-**LinkedIn:** [linkedin.com/in/alinelataro](https://www.linkedin.com/in/aline-lataro)  
-**GitHub:** [github.com/AlineLataro](https://github.com/AlineLataro)
+## Sobre o Curso
+Este projeto foi desenvolvido como parte do curso de Data Science do programa Oracle Next Education (ONE) em parceria com a Alura, com foco em ETL, análise exploratória e geração de relatórios.
